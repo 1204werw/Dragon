@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+
+<html lang="zh-Hant">
+
+<head>
+
+  <meta charset="UTF-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>基本架構</title>
+  
+  <link rel="icon" type="image/x-icon" href="../pic/favicon.png">
+  
+  <link rel="stylesheet" href="../css/style_1.css">
+
+  <style></style>  
+  
+</head>
+
+<body>
+
+  <!-- 左側快速導覽 -->
+  <aside class="sidebar">
+	<div class="sidebar-title">基本架構</div>
+	<a href="#text">文字</a>
+	<a href="#table">表格</a>
+	<a href="#picture">圖片</a>
+	<a href="#video">影片</a>
+  </aside>
+
+  <nav>
+  
+    <div class="logo">🐉 <a href="基本架構.html">DRAGON FRUITS ONLY</a></div>
+
+    <div class="links">
+
+    <!-- 等級 -->
+    <div class="dropdown">
+   
+      <div class="dropdown-title" onclick="toggleMenu(this)">等級 ▼</div>
+
+      <div class="dropdown-menu">
+        <a href="#first-sea">一海</a>
+        <a href="#second-sea">二海</a>
+        <a href="#third-sea">三海</a>
+      </div>
+	  
+    </div>
+
+    <!-- 一海(1) -->
+    <div class="dropdown">
+	
+      <div class="dropdown-title" onclick="toggleMenu(this)">一海(1) ▼</div>
+
+      <div class="dropdown-menu">
+        <a href="#pirate-starter">起始島</a>
+        <a href="#jungle">叢林</a>
+        <a href="#pirate-village">海盜村</a>
+        <a href="#desert">沙漠</a>
+	    <a href="#frozen-village">冰凍村</a>
+	    <a href="#marine-fortress">海軍堡壘</a>
+      </div>
+	  
+    </div>
+
+
+    <!-- 一海(2) -->
+    <div class="dropdown">
+	
+      <div class="dropdown-title" onclick="toggleMenu(this)">一海(2) ▼</div>
+
+      <div class="dropdown-menu">
+        <a href="#skylands">天空之島</a>
+        <a href="#prison">監獄</a>
+        <a href="#colosseum">競技場</a>
+        <a href="#magma-village">熔岩村</a>
+	    <a href="#underwater-city">海底城市</a>
+	    <a href="#upper-skylands">上層天空之島</a>
+	    <a href="#fountain-city">噴泉城</a>
+      </div>
+	  
+    </div>
+
+    <!-- 二海 -->
+    <div class="dropdown">
+	
+      <div class="dropdown-title" onclick="toggleMenu(this)">二海 ▼</div>
+
+      <div class="dropdown-menu">
+        <a href="#kingdom-of-rose">玫瑰王國</a>
+        <a href="#green-zone">綠色區域</a>
+        <a href="#graveyard-island">墓地島</a>
+	    <a href="#snow-mountain">雪山</a>
+	    <a href="#hot-and-cold">冰火島</a>
+        <a href="#cursed-ship">詛咒船</a>
+        <a href="#ice-castle">冰之城堡</a>
+        <a href="#forgotten-island">遺忘之島</a>
+      </div>
+	  
+    </div>
+
+    <!-- 三海 -->
+    <div class="dropdown">
+	
+      <div class="dropdown-title" onclick="toggleMenu(this)">三海 ▼</div>
+
+      <div class="dropdown-menu">
+        <a href="#port-town">港口城鎮</a>
+        <a href="#hydra-island">九頭蛇島</a>
+        <a href="#great-tree">巨樹</a>
+        <a href="#floating-turtle">浮空龜島</a>
+		<a href="#haunted-castle">鬧鬼城堡</a>
+        <a href="#sea-of-treats">甜點之海</a>
+        <a href="#tiki-outpost">提基前哨站</a>
+        <a href="#submerged-island">沉沒島嶼</a>
+      </div>
+	  
+    </div>
+
+    <!-- 全龍配置 -->
+    <div class="dropdown">
+    
+	  <div class="dropdown-title" onclick="toggleMenu(this)">全龍配置 ▼</div>
+
+      <div class="dropdown-menu">
+        <a href="#dragon-talon">龍拳</a>
+        <a href="#dragon-fruit">龍果</a>
+        <a href="#dragonheart">龍刀</a>
+        <a href="#dragonstorm">龍槍</a>
+		<a href="#draco">龍族</a>
+        <a href="#dino-hood">龍兜帽</a>
+      </div>
+	
+    </div>
+
+    </div>
+
+	<div class="tag">BLOX FRUITS CHALLENGE</div> 
+	
+  </nav>
+
+  <header class="hero">
+
+    <div class="dragon">🐉</div>
+	
+	<div class="hero-content">
+	
+	<h1>
+	  <span>Blox Fruit</span><br>
+	  網頁基本架構
+	</h1>
+	
+	<h2>
+	  <span id="text">文字</span>
+	</h2>
+	
+	<h1>	  
+	  h1
+	</h1>
+	
+	<h1>
+	  <span>h1 span</span>
+	</h1>
+	
+	<h2>
+	  h2
+	</h2>
+	
+	<h2>
+	  <span>h2 span</span>
+	</h2>
+	
+	<h3>
+	  h3
+	</h3>
+	
+	<h3>
+	  <span>h3 span</span>
+	</h3>
+	
+	<h2>
+	  <span id="table">表格</span>
+	</h2>
+	
+	<h3>
+	  <table class="status-table">
+	      <tr>
+		      <th></th>
+		      <th>第1欄</th>
+			  <th>第2欄</th>
+			  <th>第3欄</th>
+		  </tr>
+		
+		  <tr>
+		      <td>第1列</td>
+		      <td>1-1</td>
+			  <td>2-1</td>
+			  <td>3-1</td>
+		  </tr>
+		
+		  <tr>
+		      <td>第2列</td>
+		      <td>1-2</td>
+			  <td>2-2</td>
+			  <td>3-2</td>
+		  </tr>
+		  
+		  <tr>
+		      <td>第3列</td>
+		      <td>1-3</td>
+			  <td>2-3</td>
+			  <td>3-3</td>
+		  </tr>		  
+	  </table>
+	</h3>
+	
+	<h2>
+	  <span id="picture">圖片</span>
+	</h2>
+	
+	<div class="gallery">
+	<img src="../pic/BF.png" alt="BF" width="500" height="287"
+		 onclick="openImage(this)">
+	</div>
+	
+	<h2>
+	  <span id="video">影片</span>
+	</h2>	
+
+	<video width="700" controls>
+        <source src="../vid/BF-update-30.mp4" type="video/mp4">
+        您的瀏覽器不支援影片播放。1
+    </video>	
+	
+	</div>
+  
+  </header>
+
+  <footer>
+    
+	<!-- 素材來源 -->
+	<div class="credit">
+
+	  <h3>素材來源</h3>
+
+	  <p>
+		<strong>圖片（BF.png）</strong><br>
+		作者：Gamer Robot Inc.<br>
+		來源：
+		<a href="https://static.wikia.nocookie.net/roblox-blox-piece/images/e/e6/Site-logo.png/revision/latest?cb=20250404120109 " target="_blank" rel="noopener noreferrer">
+		Blox Fruits Wiki
+		</a>
+	  </p>
+
+	  <p>
+		<strong>影片（BF-update-30.mp4）</strong><br>
+		發布者：Gamer Robot<br>
+		來源：
+		<a href="https://www.youtube.com/watch?v=ZeiCK3sNCRo" target="_blank" rel="noopener noreferrer">
+		原始影片網站
+		</a>
+	  </p>
+
+	  <p class="credit-note">
+		本網站所使用之圖片及影片，其著作權歸原作者或合法權利人所有。本網站標示來源不代表已取得使用授權。
+	  </p>
+
+	</div>
+  
+    <p> 🐉 版權所有 © 2026 <span>dragonman</span> </p>
+
+    <p style="margin-top:10px;">
+      對於本網站有任何疑問，可以查詢
+	  <a href="https://blox-fruits.fandom.com/wiki/Blox_Fruits_Wiki" target="_blank">
+	    BF Wiki
+	  </a>
+    </p>
+	
+  </footer>
+  
+  <!-- 回到頁首 -->
+  <a href="#" class="back-to-top">↑</a>
+
+  <script src="../js/script.js"></script>
+
+  <!-- 圖片放大視窗 -->
+  <div class="modal" id="imageModal" onclick="closeImage()">
+    <span class="close">&times;</span>
+    <img id="largeImage" onclick="event.stopPropagation()">
+  </div>
+
+</body>
+
+</html>
