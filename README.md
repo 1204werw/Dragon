@@ -26,4 +26,7 @@
 ## 📁 專案性質
 本網站目前以基本網頁架構及功能展示為主，持續學習、設計與完善網頁內容。
 
+## 🔗 專案網址
+👉👉👉 https://1204werw.github.io/Dragon/BF-Web/html/index.html
+
 © Blox Fruits Web Project
