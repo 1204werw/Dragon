@@ -1,4 +1,4 @@
-# 🐉 Blox Fruits 網頁基本架構
+# 🐉 BF 網頁基本架構
 
 ## 📌 專案介紹
 本專案以 Roblox 遊戲《Blox Fruits》為主題，設計一個結合黑色、橘色與龍元素風格的網頁，主要用於展示 HTML、CSS 與 JavaScript 的基本架構及應用。
